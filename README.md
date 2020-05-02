@@ -15,7 +15,7 @@ Minimal ES6 starter development kit with babel-eslint, mocha, chai and dotenv.
 ## Quickstart
 
 ```bash
-git clone https://github.com/kmlg/starter-es6-ava.git
+git clone https://github.com/kmlg/starter-es6-babel-mocha.git
 cd starter-es6-ava
 
 npm install
