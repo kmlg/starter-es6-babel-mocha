@@ -1,0 +1,40 @@
+{
+  "name": "starter-es6-babel-mocha",
+  "version": "0.0.1",
+  "description": "Minimal ES6 starter development kit with babel-eslint, mocha, chai and dotenv.",
+  "main": "index.js",
+  "scripts": {
+    "debug_chrome": "node --inspect-brk index.js",
+    "pretest_eslint": "eslint .",
+    "fix": "eslint --fix .",
+    "test_watch": "nyc mocha --watch --timeout=100000",
+    "test": "nyc mocha --timeout=100000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:kmlg/starter-es6-babel-mocha.git"
+  },
+  "keywords": [
+    "es6",
+    "babel",
+    "eslint",
+    "mocha"
+  ],
+  "author": "Kiril Mitev <kiril@kmitev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmlg/starter-es6-babel-mocha/issues"
+  },
+  "homepage": "https://github.com/kmlg/starter-es6-babel-mocha#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-es6": "^1.10.3",
+    "eslint-plugin-commonjs": "^1.0.2",
+    "eslint-plugin-mocha": "^6.3.0",
+    "mocha": "^7.1.0",
+    "nyc": "^15.0.0"
+  }
+}
